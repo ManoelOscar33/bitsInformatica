@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col">
+        <nav class="navbar navbar-dark bg-dark" style="padding: 20px; padding-bottom: 60px;">
+            <h2 routerLink="">Bits Informática</h2>
+            <input 
+                type="text" 
+                placeholder="Pesquisar por produto"
+                #termoDaBusca
+                (keyup)="pesquisa(termoDaBusca.value)"
+            >
+            <ul class="list-group" style="position: absolute; margin-left: 367px; margin-top: 140px;">
+                <li class="list-group-item" *ngFor="let produto of produtos$ | async" style="cursor: pointer"><span [routerLink]="['/produto', produto.id]" (click)="limpaPesquisa();">{{produto.titulo | descricaoReduzida:7:0}}</span></li>
+            </ul>
+            <!--<h2 class="text-white" style="margin-left: 150px;">Sua loja online!</h2>
+            <div style="margin-left: 100px;"></div>-->
+            <img src="./assets/carrinho.png" style="margin-top: -40px; margin-left: -80px;" routerLink="/ordemcompra">
+            <div style="margin-left: 80px;"></div><!--
+            <ul class="nav" style="margin-left: 320px;">
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" routerLink="computadores">Computadores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" routerLink="notebooks">Notebooks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" routerLink="cadeiras-gamer">Cadeiras Gamer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" routerLinkActive="active" routerLink="acessorios">Acessórios</a>
+                </li>
+            </ul>-->
+        </nav>
+    </div>
+</div>
+

@@ -1,0 +1,76 @@
+{
+  "produtos": [
+    {
+      "imagem": "./assets/img-pc.PNG",
+      "titulo": "Computadores",
+      "descricao": "Computadores ideais para seus estudos diários!",
+      "valor": "1999.90",
+      "id": 1
+    },
+    {
+      "imagem": "./assets/img-note.png",
+      "titulo": "Notebook",
+      "descricao": "Notebooks ideais para seus estudos e trabalho",
+      "valor": "2500.00",
+      "id": 2
+    },
+    {
+      "imagem": "./assets/img-cadeiras.PNG",
+      "titulo": "Cadeira Gamer",
+      "descricao": "Cadeiras gamers espetaculares para você estudar e trabalhar!",
+      "valor": "1350.00",
+      "id": 3
+    },
+    {
+      "imagem": "./assets/img-teclado.PNG",
+      "titulo": "Acessórios",
+      "descricao": "Acessórios fantásticos para você!",
+      "valor": "29.90",
+      "id": 4
+    }
+  ],
+  "pedidos": [
+    {
+      "endereco": "Av teste",
+      "numero": "15",
+      "complemento": null,
+      "formaDePagamento": "debito",
+      "itens": [
+        {
+          "id": 1,
+          "imagem": "./assets/img-pc.PNG",
+          "titulo": "Computadores",
+          "descricao": "Computadores ideais para seus estudos diários!",
+          "valor": "1999.90",
+          "quantidade": 1
+        },
+        {
+          "id": 2,
+          "imagem": "./assets/img-note.png",
+          "titulo": "Notebook",
+          "descricao": "Notebooks ideais para seus estudos e trabalho",
+          "valor": "2500.00",
+          "quantidade": 2
+        }
+      ],
+      "id": 1
+    },
+    {
+      "endereco": "Av treze",
+      "numero": "10",
+      "complemento": null,
+      "formaDePagamento": "debito",
+      "itens": [
+        {
+          "id": 1,
+          "imagem": "./assets/img-pc.PNG",
+          "titulo": "Computadores",
+          "descricao": "Computadores ideais para seus estudos diários!",
+          "valor": "1999.90",
+          "quantidade": 2
+        }
+      ],
+      "id": 2
+    }
+  ]
+}

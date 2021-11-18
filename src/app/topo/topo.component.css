@@ -1,0 +1,23 @@
+h2 {
+    margin-left: 70px;
+    color: beige;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+a {
+    color:beige;
+    font-size: 18px;
+}
+
+input {
+    padding: 8px 150px;
+    margin-left: -60px;
+    
+}
+
+img {
+    cursor: pointer;
+}
