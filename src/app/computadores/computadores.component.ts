@@ -14,7 +14,7 @@ export class ComputadoresComponent implements OnInit {
   constructor(private produtosService: ProdutosService) { }
 
   ngOnInit(): void {
-    this.produtosService.getProdutosPorTitulo('Computadores')
+    this.produtosService.getProdutosPorTitulo('Computador')
       .subscribe((res: Produto[]) => 
         this.produtos = res,
       (error) => console.log(error))

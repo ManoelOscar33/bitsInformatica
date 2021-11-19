@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "deploy:ghdocs": "ng build --output-path docs"
+    "deploy:ghdocs": "ng build --output-path docs --href-bitsInformatica"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +23,7 @@
     "bootstrap": "^5.1.1",
     "intl": "^1.2.5",
     "jquery": "^3.6.0",
+    "json-server": "^0.17.0",
     "popper.js": "^1.16.1",
     "rxjs": "~6.6.0",
     "rxjs-compat": "^6.6.7",

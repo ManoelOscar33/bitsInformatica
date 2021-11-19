@@ -1,17 +1,20 @@
 <h2>Bits Informática - Computadores, Notebooks e muito mais!</h2>
-<div class="row" style="margin-left: 30px;">
-  <div class="col" *ngFor="let produto of produtos">
-    <section style="max-height: 500px; max-width: 500px;">
-      <article style="max-height: 500px; max-width: 500px;">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" [src]="produto.imagem" alt="Imagem de capa do card" style="max-height: 250px; max-width: 250px; padding-bottom: 60px;">
-          <div class="card-body">
-            <h5 class="card-title">{{produto.titulo}}</h5>
-            <p class="card-text">{{produto.descricao}}</p>
-            <a class="btn btn-primary" [routerLink]="['/produto', 'produto.id']">Confira</a>
+<div class="container">
+  <div class="row" style="margin-left: 30px;">
+    <div class="col" *ngFor="let produto of produtos">
+      <section style="max-height: 500px; max-width: 500px;">
+        <article style="max-height: 500px; max-width: 500px;">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" [src]="produto.imagem" alt="Imagem de capa do card" style="max-height: 250px; max-width: 250px; padding-bottom: 60px;">
+            <div class="card-body">
+              <h5 class="card-title">{{produto.titulo}}</h5>
+              <p class="card-text">{{produto.descricao}}</p>
+              <p class="card-text">{{produto.valor}}</p>
+              <a class="btn btn-primary" [routerLink]="['/produto', produto.id]">Confira aqui</a>
+            </div>
           </div>
-        </div>
-      </article>
-    </section>
+        </article>
+      </section>
+    </div>
   </div>
 </div>
