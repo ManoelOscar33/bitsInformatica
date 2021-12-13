@@ -3,14 +3,14 @@
     {
       "imagem": "./assets/img-pc.PNG",
       "titulo": "Computador",
-      "descricao": "1TB de HD, 4GB de Memória RAM, Processador Intel 3.0 e muito mais... Computador ideal para seus estudos diários!",
+      "descricao": "-1TB de HD, 4GB de Memória RAM -Processador Intel 3.0",
       "valor": "1999.90",
       "id": 1
     },
     {
       "imagem": "./assets/img-note.png",
       "titulo": "Notebook",
-      "descricao": "1TB de HD, 8GB de Memória RAM, Processador Intel 7.0 e muito mais...Notebook ideal para seus estudos e trabalho",
+      "descricao": "-1TB de HD, 8GB de Memória RAM -Processador Intel 7.0",
       "valor": "2500.00",
       "id": 2
     },

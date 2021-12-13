@@ -22,70 +22,58 @@
       </a>
   </div>
 </section>-->
-<h2>Bits Informática - Computadores, Notebooks e muito mais!</h2>
 <div class="container">
-  <div class="row" style="margin-left: 30px;">
-    <div class="col" *ngFor="let produto of produtos">
-      <section style="max-height: 500px; max-width: 500px;">
-        <article style="max-height: 500px; max-width: 500px;">
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" [src]="produto.imagem" alt="Imagem de capa do card" style="max-height: 250px; max-width: 250px; padding-bottom: 60px;">
-            <div class="card-body">
-              <h5 class="card-title">{{produto.titulo}}</h5>
-              <p class="card-text">{{produto.descricao}}</p>
-              <!--
-              <a class="btn btn-primary" [routerLink]="[]">Clique aqui</a>-->
-            </div>
+  <div class="row">
+    <div class="col m-auto">
+      <div id="carousel-controles" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img style="height: 500px; width: 500px;" src="./assets/img-pc.PNG" class="img-fluid">
           </div>
-        </article>
-      </section>
+          <div class="carousel-item">
+            <img style="height: 500px; width: 500px;" src="./assets/img-note.png" class="img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img style="height: 500px; width: 500px;" src="./assets/img-cadeiras.PNG" class="img-fluid">
+          </div>
+        </div>
+        <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#carousel-controles" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <h2>Bits Informática - Computadores, Notebooks e muito mais!</h2>
+  <div class="row" style="margin-left: 30px;">
+    <div class="col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/img-pc.PNG" alt="Imagem de capa do card" style="max-height: 250px; max-width: 250px; padding-bottom: 60px;">
+        <div class="card-body">
+          <h5 class="card-title">Computador</h5>
+          <p class="card-text">Computadores ideais para seu estudos.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/img-note.png" alt="Imagem de capa do card" style="max-height: 250px; max-width: 250px; padding-bottom: 60px;">
+        <div class="card-body">
+          <h5 class="card-title">Notebooks</h5>
+          <p class="card-text">Notebooks ideais para seu estudos e trabalho.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="./assets/img-cadeiras.PNG" alt="Imagem de capa do card" style="max-height: 250px; max-width: 250px; padding-bottom: 60px;">
+        <div class="card-body">
+          <h5 class="card-title">E muito mais!</h5>
+          <div style="padding-bottom: 48px;"></div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-  <!--
-  <div class="col-6">
-    <section>
-      <article>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/img-note.png" alt="Imagem de capa do card">
-          <div class="card-body">
-            <h5 class="card-title">Notebooks</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-            <a href="#" class="btn btn-primary" routerLink="notebooks">Confira</a>
-          </div>
-        </div>
-      </article>
-    </section>
-  </div>
-</div>
-<div style="margin-bottom: 200px;"></div>
-<div class="row" style="margin-left: 30px;">
-  <div class="col-6">
-    <section>
-      <article>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/img-cadeiras.PNG" alt="Imagem de capa do card">
-          <div class="card-body">
-            <h5 class="card-title">Cadeiras Gamer</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-            <a href="#" class="btn btn-primary" routerLink="cadeiras-gamer">Confira</a>
-          </div>
-        </div>
-      </article>
-    </section>
-  </div>
-  <div class="col-6">
-    <section>
-      <article>
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="./assets/img-teclado.PNG" alt="Imagem de capa do card">
-          <div class="card-body">
-            <h5 class="card-title">Acessórios</h5>
-            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
-            <a href="#" class="btn btn-primary" routerLink="acessorios">Confira</a>
-          </div>
-        </div>
-      </article>
-    </section>
-  </div>
-</div>-->

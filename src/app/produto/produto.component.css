@@ -2,6 +2,10 @@ h1 {
     color: #555
 }
 
+h2 {
+    margin-left: 400px;
+}
+
 .produto {
     margin-top: 25px
 }
